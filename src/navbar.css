@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f4f4f4; 
+    padding: 0.5rem 1rem; 
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    height: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 1rem; 
+    transition: color 0.3s ease; 
+  }
+  
+  nav a:hover {
+    color: #007BFF; 
+  }
+  
+  .link-activo {
+    font-weight: bold;
+    color: #007BFF;
+  }
+
+  .lang-selector-container {
+    position: absolute;
+    right: 1rem;
+    top: 150px;
+    transform: translateY(-50%);
+  }
+  
+  
+

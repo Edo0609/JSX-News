@@ -1,0 +1,58 @@
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: auto;
+    box-sizing: border-box;
+    overflow-y: auto;
+    color: #000;  
+  }
+  
+
+  .article-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+
+  .article-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+
+  .article-container div {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.8;
+    max-width: 900px;  
+    margin: 0 auto;
+    text-align: justify;
+  }
+  
+
+  .article-container img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+.login-prompt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-prompt button {
+    max-width: 50%;
+}

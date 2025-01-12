@@ -1,0 +1,38 @@
+.language-selector {
+    position: relative;
+  }
+  
+  .language-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .dropdown-menu {
+    position: absolute; 
+    top: 100%;
+    left: 0;
+    width: 100%; 
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 0.25rem;
+    padding: 0;
+    list-style: none;
+    z-index: 10; 
+  }
+  
+  .dropdown-item {
+    padding: 0.5rem 1rem;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
